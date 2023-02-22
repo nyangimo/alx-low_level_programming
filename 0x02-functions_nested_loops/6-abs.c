@@ -6,15 +6,15 @@
  * 1: inputnumber at integer
  * Return: absolutevalue
  */
-int _abs(int i)
+int _abs(int t)
 {`
 
-	if (i >= 0)
+	if (t >= 0)
 {
-	return (i);
+	return (t);
 }
 else
 {
-	return (i * -1);
+	return (-t);
 }
 }
