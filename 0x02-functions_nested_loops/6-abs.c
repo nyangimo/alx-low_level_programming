@@ -1,23 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * computes the absolute value of an integer
- *
+ * _abs - Computesabsolute value
+ * of an integer
+ * 1: inputnumber at integer
+ * Return: absolutevalue
  */
-int main(void)
+int _abs(int i)
+{`
+
+	if (i >= 0)
 {
-	int r
-
-r = _abs(-1);
-printf("%d\n", r);
-r = _abs(0);
-printf("%d\n", r);
-r = _abs(0);
-printf("%d\n", r);
-r = _abs(1);
-printf("%d\n", r);
-r = _abs(-98);
-printf("%d\n", r);
-
-return (0);
-}		
+	return (i);
+}
+else
+{
+	return (i * -1);
+}
+}
