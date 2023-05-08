@@ -44,7 +44,7 @@ exit(100);
 * Return: 0 on success.
 *
 * Description: - exit code 97  If the argument count is incorrect
-* If file_- exit code 98 if file does not exist or cannot be read 
+* If file_- exit code 98 if file does not exist or cannot be read
 * If file_to cannot be created or written to - exit code 99.
 * If file_to or file_from cannot be closed - exit code 100.
 */
