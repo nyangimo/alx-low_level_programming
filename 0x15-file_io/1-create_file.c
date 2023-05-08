@@ -2,9 +2,8 @@
 /**
 * create_file - For creating a file.
 * @filename: Points to the name of the file to be created.
-* @text_content: Points to a string to write to the file.
-*
-* Return:  --1 If the function fails 
+* @text_content: Points to a string to write to the file
+* Return: --1 If the function fails
 * Otherwise  return - 1.
 */
 int create_file(const char *filename, char *text_content)
