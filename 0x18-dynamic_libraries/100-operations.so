@@ -1,0 +1,36 @@
+[200~#include <stdio.h>
+
+int add(int a, int b) {
+    return (a + b);
+}
+
+int sub(int a, int b) {
+    return (a - b);
+}
+
+int mul(int a, int b) {
+    return (a * b);
+}
+
+int div(int a, int b) {
+    return (a / b);
+}
+
+int mod(int a, int b) {
+    return (a % b);
+}
+
+int main() {
+    // Test the functions
+    int a = 10;
+    int b = 5;
+
+    printf("Addition: %d\n", add(a, b));
+    printf("Subtraction: %d\n", sub(a, b));
+    printf("Multiplication: %d\n", mul(a, b));
+    printf("Division: %d\n", div(a, b));
+    printf("Modulus: %d\n", mod(a, b));
+
+    return 0;
+}
+
