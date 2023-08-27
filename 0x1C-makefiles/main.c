@@ -1,13 +1,12 @@
 #include "m.h"
 
 /**
- * main - the entry point
+ * main - Entry point
  *
- * Return always
+ * Return: Always 
  */
 int main(void)
 {
-	print_holberton();
+	print_school();
 	return (EXIT_SUCCESS);
-
 }
